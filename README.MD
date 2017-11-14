@@ -1,1 +1,0 @@
-Repositori ini adalah repositori terbuka milik KIRSmartCyber SMA Negeri 1 Leuwiliang.

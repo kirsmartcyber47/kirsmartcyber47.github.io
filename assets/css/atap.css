@@ -1,0 +1,13 @@
+.feature-wrap {
+    margin-bottom: 35px;
+    overflow: hidden;
+}
+
+.feature-wrap h2 {
+    margin-top: 10px;
+}
+
+.feature-wrap i{
+    font-size: 48px;
+    margin-bottom: 5px;
+}

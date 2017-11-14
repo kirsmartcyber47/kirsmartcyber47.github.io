@@ -1,27 +1,10 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="KIRSmartCyber SMA Negeri 1 Leuwiliang">
-    <meta name="robots" content="follow,index">
-
-    <title>KOMPAS KIRSmartCyber47 SMAN 1 Leuwiliang</title>
-    <link rel="icon" href="assets/img/kirsmartcyber-logo.png">
-
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/css/main.css" rel="stylesheet">
-    <link href="assets/css/kompas.css" rel="stylesheet">
-</head>
-
 <body>
     <div class="container text-center">
-        <div id="navbar"></div>
+        <?php include "content/templates/navbar.php"; ?>
 
         <section id="lead">
             <div class="inner">
-                <img src="assets/img/kompas-logo.png" alt="">
+            <img src="assets/img/kompas-logo.png" alt="">
                 <h1>KOMPAS</h1>
                 <h4>Kompetisi Olimpiade Mata Pelajaran Antar Sekolah</h4>
                 <p class="lead">
@@ -29,40 +12,47 @@
                     olimpiade mata pelajaran dan eksplorasi ilmu pengetahuan.
                 </p>
                 <p class="lead">
-                    Stay tuned di Instagram KIRSmartCyber ya!
-                    <i class="fa fa-instagram"></i>
-                    <strong>kirsmartcyber47</strong>.
+                    Stay tuned di Instagram KIRSmartCyber ya! <i class="fa fa-instagram"></i><strong>kirsmartcyber47</strong>.
                 </p>
             </div>
         </section>
 
-        <section id="countdown"></section>
+        <section id="countdown">
+            <?php 
+                if (KOMPAS_COUNTDOWN == true) { 
+                    include "content/templates/countdown.php"; 
+                }
+                if (KOMPAS_COMING_SOON == true) { 
+                    echo '<p class="display-3">Coming Soon!</p>';
+                }
+            ?>
+        </section>
 
         <section id="timeline">
             <h2>Timeline</h2>
             <br/>
             <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="feature-wrap">
-                        <i class="fa fa-check"></i>
-                        <h5>Announcing KOMPAS SEASON 4</h5>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="feature-wrap">
+                            <i class="fa fa-check"></i>
+                            <h5>Announcing KOMPAS SEASON 4</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="feature-wrap">
+                            <i class="fa fa-hourglass-1"></i>
+                            <h5>Pendaftaran KOMPAS SEASON 4</h5>
+                            <p>1 November s.d. 3 Desember 2017</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="feature-wrap">
+                            <i class="fa fa-compass"></i>
+                            <h5>KOMPAS SEASON 4</h5>
+                            <p>20 Desember 2017</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="feature-wrap">
-                        <i class="fa fa-hourglass-1"></i>
-                        <h5>Pendaftaran KOMPAS SEASON 4</h5>
-                        <p>1 November s.d. 3 Desember 2017</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="feature-wrap">
-                        <i class="fa fa-compass"></i>
-                        <h5>KOMPAS SEASON 4</h5>
-                        <p>20 Desember 2017</p>
-                    </div>
-                </div>
-            </div>
             <br/>
         </section>
 
@@ -160,18 +150,12 @@
 
         <section>
             <br/>
-            <p class="lead">Untuk informasi mengenai petunjuk teknis, formulir, dan kontak, dapat dilihat pada bagian
-                <strong>Unduhan</strong>.
+            <p class="lead">Untuk informasi mengenai petunjuk teknis, formulir, dan kontak, dapat dilihat pada bagian <strong>Unduhan</strong>.
             </p>
         </section>
 
-        <div id="footer"></div>
+        <?php include "content/templates/footer.php"; ?>
     </div>
 
-    <script src="assets/js/jquery-3.2.1.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/ie10-viewport-fix.js"></script>
-    <script src="assets/js/main.js"></script>
+    <?php include "content/templates/scripts.php"; ?>
 </body>
-</html>
