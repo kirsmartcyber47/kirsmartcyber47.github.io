@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Dec 12, 2017 06:30:00").getTime();
+var countDownDate = new Date("Jan 20, 2018 06:30:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -17,11 +17,11 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("kompas-countdown-text").innerHTML = days + "h " + hours + "j "  + minutes + "m " + seconds + "d ";
+  document.getElementById("countdown-text").innerHTML = days + "h " + hours + "j "  + minutes + "m " + seconds + "d ";
 
   // If the count down is finished, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("kompas-countdown-text").innerHTML = "Ayo kita mulai!";
+    document.getElementById("countdown-text").innerHTML = "Ayo kita mulai!";
   }
 }, 1000);
