@@ -1,0 +1,366 @@
+ /*buatan saya*/
+   @font-face
+   {
+     font-family: 'vigsby';
+     src: url('visby.ttf')
+   }
+   body{
+     background: url('https://wallpaperaccess.com/full/733416.jpg');
+     background-attachment: fixed;
+     font-family: 'vigsby';
+   }
+   .bg{
+      background-color: #191c22;
+      border-radius: 50px;
+      justify-content: center;
+      padding:8px;
+      margin: 50px;
+   }
+    .img{
+      width: 10rem;
+      height: auto;
+    }
+    
+    hr{
+      border: 3px solid black;
+      border-radius: 50px;
+      color: #3a474aaf;
+      margin: 3px;
+    }
+		.card {
+			margin: 5px;
+			border-radius: 10px;
+			box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+		}
+		.card-img-top {
+			border-radius: 10px 10px 0px 0px;
+			object-fit: cover;
+			height: 150px;
+		}
+		.card-body {
+			padding: 10px;
+		}
+		.card-title {
+			font-size: 20px;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+		.card-text {
+			font-size: 16px;
+			margin-bottom: 10px;
+		}
+		.carousel-item {
+			text-align: center;
+		}
+		
+    .transparent{
+      background-color: #3a474aaf;
+      border-radius: 25px;
+    }
+    .carder{
+      background-color: #3a474aaf;
+    }
+    .transparent h1{
+      text-decoration-color: none;
+    }
+    .navi{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .wrapper{
+      text-align:center;
+      border-radius: 10px;
+      margin:25px 25px;
+      background-color: #3a474aaf;
+   
+    }
+    #header{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    transition: top .3s ease;
+    }
+    
+    #header .show{
+      top: -20px;
+    }
+    
+    .tabs{
+      margin-top:10px;
+      font-size:15px;
+      padding:0px;
+    }
+    
+  
+.round-btn {display: inline;height: 40px; width: 40px; border-radius: 50%;float: left; box-shadow:none; margin: 15px 8px;}
+.round-btn a {display: block !important;padding: 7px 12px;font-size: 18px;border-radius: 50%;}
+.round-btn .icon {padding: 3px;}
+.round-btn .icon img{height: 24px; width: 32px;margin-top: 5px;}
+.standard_header .standard_social_links {margin-left: 1rem;}
+  
+  .footer-wrap {
+    padding-top: 43px;
+    background-size: cover;
+}
+
+.footer-wrap h3 {
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.footer-wrap p {
+    font-size: 13px;
+    line-height: 24px;
+    color: #b3b3b3;
+    margin-top: 15px;
+}
+
+.footer-wrap p a {
+    color: #fff;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.footer-wrap p a:hover {
+    text-decoration: none;
+    color: #ff7800;
+}
+
+.footer-links li a {
+    font-size: 13px;
+    line-height: 30px;
+    color: #ccc;
+    text-decoration: none;
+}
+
+
+.footer-links li:before {
+    content: "\f105";
+    font-family: 'FontAwesome';
+    padding-right: 10px;
+    color: #ccc;
+}
+
+.footer-category li a {
+    font-size: 13px;
+    line-height: 30px;
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-category li:before {
+    content: "\f105";
+    font-family: 'FontAwesome';
+    padding-right: 10px;
+    color: #b3b3b3;
+}
+
+.address {
+    
+    color: #b3b3b3;
+    font-size: 14px;
+    position: relative;
+    padding-left: 30px;
+    line-height: 30px;
+}
+
+.address:before {
+    content: "\f277";
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.info a {
+ 
+    color: #b3b3b3;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: normal;
+}
+
+.fa-phone:before {
+    content: "\f095";
+}
+
+.info a {
+
+    color: #b3b3b3;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: normal;
+}
+
+.fa-fax:before {
+    content: "\f1ac";
+}
+
+.copyright {
+    border-top: 1px solid #111;
+    font-size: 14px;
+    color: #ccc;
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 15px;
+    background: #222;
+}
+footer .second_class{
+    border-bottom: 1px solid #444;
+    padding-bottom: 25px;
+}
+footer .first_class {
+    padding-bottom: 21px;
+    border-bottom: 1px solid #444;
+}
+footer .first_class p, footer .first_class h3{
+    margin: 0 0;
+    
+}
+
+footer .newsletter input[type="text"] {
+    width: 100%;
+    background: #fff;
+    color: #333;
+    border: 1px solid #222;
+    padding: 14px 20px;
+    border-radius: 50px;
+    margin-top: 12px;
+}
+
+footer .second_class_bdr{
+    padding-top: 25px;
+    border-top:1px solid #222;
+}
+
+footer .btn-facebook a {
+    padding: 6px 14px !important;
+}
+
+footer .btn-envelop a {
+    color: #D6403A;
+    font-size: 15px;
+    padding: 12px 12px;
+}
+
+.scroll-section{
+  max-height: 100px;
+  overflow-y: auto;
+}
+footer .round-btn a {
+    padding: 6px 12px;
+}
+
+footer .round-btn {
+    box-shadow: 2px 2px 5px 0px #222 !important;}
+
+footer .round-btn {
+    margin: 15px 4px;}
+	
+footer dl, ol, ul {
+    padding-left: 5px;
+}
+	footer li{
+		list-style: none;
+	}
+	
+li{
+  list-style: none;
+}
+.round50{
+  border-radius: 50px;
+}
+.round25{
+  border-radius: 25px;
+}
+
+.heading-title > span {
+    font-size: 1.25rem;
+    display: block;
+    text-transform: capitalize;
+    color: #00bcd4;
+}
+
+.imgcrsl{
+  width: 100px;
+  border-radius: 100%;
+}
+.imgnews{
+  width: 100%;
+}
+.testimonial-wrapp, 
+.testimonial-wrapp .testimonial-text,
+.testimonial-wrapp .testimonial-photo,
+.testimonial-wrapp .quoted, .testimonial-quote{
+   position: relative;
+   -webkit-transition: all .4s ease-in;
+   -o-transition: all .4s ease-in;
+   transition: all .4s ease-in;
+}
+.testimonial-wrapp,
+.testimonial-wrapp .testimonial-text {
+	text-align: center;
+}
+.testimonial-wrapp .quoted,
+.testimonial-wrapp .testimonial-photo {
+   display: inline-block;
+}
+.testimonial-wrapp .quoted {
+	background: blue;
+	color: blue;
+	font-size: 20px;
+	line-height: 50px;
+	height: 50px;
+	width: 50px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+   -webkit-transform: translateY(50%);
+   -ms-transform: translateY(50%);
+   -o-transform: translateY(50%);
+   transform: translateY(50%);
+	z-index: 1;
+}
+.testimonial-wrapp .testimonial-text {
+	background: #3a474aaf;
+	padding: 4.25rem 2.5rem;
+	-webkit-border-radius: 10px;
+	border-radius: 25px;
+}
+.testimonial-wrapp .testimonial-photo {
+	height: 100px;
+	width: 100px;
+	margin-top: -50px;
+}
+.testimonial-wrapp .testimonial-photo,
+.testimonial-wrapp .testimonial-photo > img{
+    -webkit-border-radius: 50%;
+    border-radius: 50%;   
+}
+
+.testimonial-wrapp:hover .testimonial-text{
+   background: #007bff;
+   color: blue;
+}
+
+  .terlipat {
+    overflow: hidden;
+    max-height: 55px;
+  }
+  .terlipat-lengkap {
+    max-height: none;
+  }
+
+@media(max-width:768px){
+    .footer-wrap h3 {
+    margin-top: 27px;}
+    
+    footer .round-btn {
+    margin: 15px 4px;}
+}
+@media(max-width:320px){
+.copyright {
+    font-size: 13px;}
+}	
+
